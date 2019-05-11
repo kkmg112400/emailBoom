@@ -1,6 +1,9 @@
 # emailBoom
 go语言邮箱轰炸客户端
 ##### address.csv 配置轰炸邮箱列表
+##### 编译说明
+###### 该项目使用govendor管理第三方库;
+###### 执行`go build`之前先执行`govendor sync`同步第三方库
 ##### Usage
     Usage of ./emailBoom:
     -account string
